@@ -12,7 +12,7 @@ header {
 
 main {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
   justify-content: center;
   align-items: stretch;
   background-color: #92C9D5;
@@ -34,6 +34,7 @@ footer {
 }
 
 .item {
+  height: 100px;
   width: 100px;
   margin: 5px;
   background-color: #FCF2EC;
